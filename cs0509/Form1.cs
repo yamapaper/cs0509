@@ -9,9 +9,9 @@ namespace cs0509
 
         private void button1_Click(object sender, EventArgs e)
         {
-            button1.Text = "‰Ÿ‚³‚ê‚½";
-            button1.Left = 0;
-            button1.Visible = false;
+            buttonPropety.Text = "‰Ÿ‚³‚ê‚½";
+            buttonPropety.Left = 0;
+            buttonPropety.Visible = false;
 
             //“¯Šúˆ—@MessageBox.show‚Í“¯ŠúŠÖ”
             MessageBox.Show("hello");
