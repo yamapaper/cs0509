@@ -35,13 +35,13 @@
             // 
             button1.AutoSize = true;
             button1.BackColor = SystemColors.ActiveCaption;
-            button1.Enabled = false;
             button1.Location = new Point(17, 10);
             button1.Name = "button1";
             button1.Size = new Size(197, 134);
             button1.TabIndex = 0;
             button1.Text = "button1";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
             // 
             // Form1
             // 
